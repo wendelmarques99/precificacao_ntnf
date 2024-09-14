@@ -36,9 +36,9 @@ def pu_ntnf_semestral(data_atual, data_vencimento, taxa):
     return pu
     
     
-inicio = date(2020, 4, 30)
-final = date(2021, 1, 1)
-taxa = 2.96
+inicio = date(2024, 9, 13)
+final = date(2035, 1, 1)
+taxa = 11.92
 
 pu_ntnf_semestral(data_atual=inicio, data_vencimento=final, taxa = taxa)
 
